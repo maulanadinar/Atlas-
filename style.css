@@ -1,0 +1,145 @@
+* {
+    font-family:'Times New Roman', Times, serif;
+}
+
+body {
+    background-color:white;
+}
+
+header {
+    background-color: white;
+}
+
+header .logo{
+    width: 150px;
+}
+  
+  .judul {
+    width: 300px;
+  }
+
+  .thumb {
+    position: absolute;
+    left: 65px;
+    bottom: -15px;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.thumb li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.thumb li:hover {
+    transform: translateY(-25px);
+}
+
+.thumb li img {
+    max-width: 150px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+.pageimg {
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 3%;
+}
+
+.pagename {
+  font-size: 40px;
+  margin-left: 1000px;
+}
+
+.menu {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.motor-info {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+}
+
+.gambar-info img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 2rem;
+}
+
+.gambar-info div {
+  flex: 1;
+}
+
+.gambar-info h2 {
+  margin: 0;
+}
+
+.gambar-info p {
+  margin: 0.5rem 0;
+}
+
+.gambar-info .price {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.location-info {
+  margin: 2rem 0;
+}
+
+.location-info p {
+  margin: 0;
+}
+
+.location-info span {
+  font-weight: bold;
+}
+
+.contact-seller {
+  background-color: #f3f3f3;
+  padding: 1rem;
+  text-align: center;
+}
+
+.contact-seller span{
+  color: #45a049;
+}
+
